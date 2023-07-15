@@ -1,1 +1,26 @@
+Serial Console Access Windows-
 
+1. Enable SAC
+
+bcdedit /ems {current} on
+bcdedit /emssettings EMSPORT:1 EMSBAUDRATE:115200
+
+2. Enable Boot menu
+
+bcdedit /set {bootmgr} displaybootmenu yes
+bcdedit /set {bootmgr} timeout 15
+bcdedit /set {bootmgr} bootems yes
+
+3. Reboot the instance
+
+Simulate a networking issue-
+
+netsh interface show interface
+
+netsh interface set interface name=”Ethernet 3” admin=DISABLED
+
+4. Login into Serial console
+5. Launch CMD
+6. Enable the interface
+
+netsh interface set interface name=”Ethernet 3” admin=ENABLED
