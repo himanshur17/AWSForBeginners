@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <style type="text/css">
+    table { width: 100%; page-break-inside:avoid; }
+    body { font-family: 'Cambria', 'Times New Roman', Serif; font-size: 12pt; }
+    table { margin-bottom: 15px; }
+    
+    .striped tbody tr:nth-child(even) { background-color: #ccc; } 
+    
+    
+    
+.ct-report-heading {
+    vertical-align: top;
+    padding : 10px;
+    text-align:center;
+   
+}
+
+.ct-report-table-heading {
+    vertical-align: top;
+    padding : 10px;
+    text-align:center;
+    font-size:small;
+}
+
+.ct-report-table-heading > th {
+   /* border-top:1px solid;
+    border-bottom:1px solid; */
+}
+
+.ct-report-subheading {
+    vertical-align: top;
+    padding :15px 0px 10px 0px;
+    text-align: left;
+    text-decoration : underline;
+    font-weight:bold;
+}
+
+.ct-reportNormal {
+    padding : 5px;
+    text-align : center;
+}
+
+.amount {
+    text-align:right;
+    padding: 0px 15px 0px 0px;
+    
+}
+
+.name {
+    text-align:left;
+    padding: 15px 0px 0px 0px;
+}
+
+.label {
+    font-weight: bold;
+    text-align:left;
+}
+
+.no-margin{
+    margin: 0px;
+    padding:0px;
+}
+
+.signature{
+    
+    padding-left:2em;
+    margin-left:2em;
+}
+
+.small
+{
+    font-size:small;
+}
+
+.extra-padding{
+        padding-left:2em;
+    }
+
+.value {
+    text-align:left;
+}
+.ct-report-total {
+    font-weight:bold;
+}
+.ct-report-total > td  
+{
+    border-top:1px solid;
+}
+
+@page completeReport
+{
+    size: 8.27in 11.69in;
+    margin: 0.5in 0.5in 0.5in 0.5in;
+}
+
+#completeReport
+{
+    page: completeReport;
+}
+</style>
+
+    <style>
+    table {
+        margin : 0;
+        padding : 0;
+    }
+    </style>
+</head>
+
+<body>
+
+<!--[if gte mso 9]>
+<xml>
+<w:WordDocument>
+<w:View>Print</w:View>
+<w:Zoom>90</w:Zoom>
+<w:DoNotOptimizeForBrowser/>
+</w:WordDocument>
+</xml>
+<![endif]-->
+<div id="completeReport">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                
+
+<div class="divheader">
+<table class="table table-condensed m40" title="General Information">
+    <tr>
+        <th colspan="2" class="name">
+            <h2 class="no-margin">Himanshu Rana</h2>
+        </th>
+        <th colspan="2" class="amount">
+            <h2 class="no-margin">AY 2023-2024</h2>
+        </th>
+    </tr>
+    <tr >
+        <td colspan="2">
+            <span class="label">Address:</span>
+            <span class="value">Desai Golden Spring seegehalli, Kadugodi</span>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <span class="value">
+Bengaluru,                 KARNATAKA
+ - 560067            </span>
+
+        </td>
+    </tr>
+
+        <tr>
+            <td colspan="2">
+                <span class="label">Mobile:</span>
+                <span class="value">91-9711555944</span>
+            </td>
+        </tr>
+            <tr>
+            <td colspan="2">
+                <span class="label">E-Mail:</span>
+                <span class="value">himanshu.rana@outlook.com</span>
+            </td>
+        </tr>
+
+    <tr class="ct-report-heading">
+        <th colspan="4">
+            <h3>Computation of Income (ITR3)</h3>
+        </th>
+    </tr>
+</table>
+<hr/>
+</div>
+<table class="table table-condensed striped m40" title="General Information">
+
+
+        <tr>
+                <td>
+                    <b>PAN:</b>
+                </td>
+                <td>
+                    AWGPR1415G
+                </td>
+                <td>
+                    <b>Status:</b>
+                </td>
+                <td>
+                    Individual
+                </td>
+        </tr>
+        <tr>
+                <td>
+                    <b>Date of Birth</b>
+                </td>
+                <td>
+                    12/11/1987
+                </td>
+                <td>
+                    <b>Residential Status:</b>
+                </td>
+                <td>
+                    Resident
+                </td>
+        </tr>
+        <tr>
+                <td>
+                    <b>Father&#x27;s Name:</b>
+                </td>
+                <td>
+                    Vijay Singh Rana
+                </td>
+                <td>
+                    <b>Gender:</b>
+                </td>
+                <td>
+                    Male
+                </td>
+        </tr>
+        <tr>
+                <td>
+                    <b>Bank A/C no.:</b>
+                </td>
+                <td>
+                    017701572669
+                </td>
+                <td>
+                    <b>IFSC code:</b>
+                </td>
+                <td>
+                    ICIC0000177
+                </td>
+        </tr>
+        <tr>
+                <td>
+                    <b>E-Filing Status:</b>
+                </td>
+                <td>
+                    Not E-Filed
+                </td>
+                <td>
+                    <b>Aadhaar Card Number:</b>
+                </td>
+                <td>
+                    947205031050
+                </td>
+        </tr>
+        <tr>
+                <td>
+                    <b>Selected tax regime</b>
+                </td>
+                <td>
+                    Old Regime
+                </td>
+        </tr>
+
+</table>
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+<h4 style="text-align:center">Tax Summary (Amount in 'Rs')</h4>
+<table class="table table-condensed m60"> 
+
+
+                <tr class="">
+            <td>
+                Salary
+            </td>
+            <td></td>
+            <td style="text-align:right">
+                 17,20,517
+            </td>
+        </tr>
+        
+    
+
+                <tr class="">
+            <td>
+                Business and Profession
+            </td>
+            <td></td>
+            <td style="text-align:right">
+                 2,71,003
+            </td>
+        </tr>
+        
+
+                <tr class="">
+            <td>
+                Other Sources
+            </td>
+            <td></td>
+            <td style="text-align:right">
+                 56,022
+            </td>
+        </tr>
+                
+    
+    
+
+                <tr class="">
+            <td>
+                Capital Gain
+            </td>
+            <td></td>
+            <td style="text-align:right">
+                 7,628
+            </td>
+        </tr>
+        
+    
+
+
+                                    <tr class="">
+                <td style="text-align:right">
+                    Long Term Capital Gain at 10%
+                </td>
+                <td style="text-align:center; width:220px; font-size:10pt; font-weight:normal">
+                    8,100
+                </td>
+                <td style="text-align:right">
+                    
+                </td>
+            </tr>
+             
+    
+    
+    
+
+
+                                    <tr class="">
+                <td style="text-align:right">
+                    Short Term Capital Gain at Slab Rate
+                </td>
+                <td style="text-align:center; width:220px; font-size:10pt; font-weight:normal">
+                    6
+                </td>
+                <td style="text-align:right">
+                    
+                </td>
+            </tr>
+             
+    
+
+
+                                    <tr class="">
+                <td style="text-align:right">
+                    Short Term Capital Gain at Special Rate
+                </td>
+                <td style="text-align:center; width:220px; font-size:10pt; font-weight:normal">
+                    -478
+                </td>
+                <td style="text-align:right">
+                    
+                </td>
+            </tr>
+             
+    
+    
+    
+        <tr style="background-color:black">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    
+    
+
+                <tr class="ct-report-total">
+            <td>
+                Gross Total Income
+            </td>
+            <td></td>
+            <td style="text-align:right">
+                 20,55,170
+            </td>
+        </tr>
+        
+    
+        
+                <tr class="">
+            <td>
+                Less: Total Deductions
+            </td>
+            <td></td>
+            <td style="text-align:right">
+                - 1,60,000
+            </td>
+        </tr>
+    
+    
+    
+        <tr style="background-color:black">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    
+    
+
+
+
+                                    <tr class="">
+                <td style="text-align:right">
+                    Total Income (Taxable)
+                </td>
+                <td style="text-align:center; width:220px; font-size:10pt; font-weight:normal">
+                    Rounded off from 18,95,170 as per Section 288A
+                </td>
+                <td style="text-align:right">
+                    18,95,170
+                </td>
+            </tr>
+                  
+    
+    
+    
+
+                <tr class="">
+            <td>
+                Tax Payable
+            </td>
+            <td></td>
+            <td style="text-align:right">
+                 3,93,914
+            </td>
+        </tr>
+        
+    
+
+                <tr class="">
+            <td>
+                Relief u/s 89/90/91
+            </td>
+            <td></td>
+            <td style="text-align:right">
+                - 56,328
+            </td>
+        </tr>
+    
+    
+    
+    
+    
+    
+
+                <tr class="">
+            <td>
+                Interest &amp; Fees
+            </td>
+            <td></td>
+            <td style="text-align:right">
+                &#x2B; 5,516
+            </td>
+        </tr>
+    
+    
+        <tr style="background-color:black">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    
+    
+
+                <tr class="ct-report-total">
+            <td>
+                Total Tax Payable
+            </td>
+            <td></td>
+            <td style="text-align:right">
+                 3,43,102
+            </td>
+        </tr>
+        
+    
+
+    
+
+
+
+                                    <tr class="">
+                <td style="">
+                    Less: Taxes Paid
+                </td>
+                <td style="text-align:center; width:220px; font-size:10pt; font-weight:normal">
+                    TDS
+                </td>
+                <td style="text-align:right">
+                    - 2,38,702
+                </td>
+            </tr>
+                  
+    
+        <tr style="background-color:black">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    
+
+
+
+
+                                    <tr class="ct-report-total">
+                <td style="">
+                    Tax Due
+                </td>
+                <td style="text-align:center; width:220px; font-size:10pt; font-weight:normal">
+                    Rounded off from 1,04,400 as per Section 288B
+                </td>
+                <td style="text-align:right">
+                    1,04,400
+                </td>
+            </tr>
+                      
+        <tr style="background-color:black">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    
+    
+
+    
+
+    
+        
+    
+</table>
+        <div>Taxes are applicable as per normal provision</div>
+    <div><b>Note :</b> The Long Term Capital Gain from the sale of equity shares and equity funds is included in the Total Income. However, up to Rs. 1 lakhs is excluded at the time of calculating the taxes there on.</div>
+
+                
+    <table class="table table-condensed m60" title="Individual Information">
+<tr class="ct-report-heading"><th colspan="4"><h4>Salary Income</h4></th></tr><tr class="">
+                    <td colspan="2"><b>Employer 1: HCL TECHNOLOGIES LTD.</b></td>
+                    <td colspan="2"></td>
+                </tr>
+                    <tr style="font-weight:normal">
+                        <td>Salary u/s 17(1)</td>
+                        <td></td>
+                        <td align="right">17,87,199</td>
+                        <td></td>
+                    </tr>
+                        <tr>
+                            <td style="padding-left:2em">Basic Salary</td>
+                            <td align="right">7,00,000</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left:2em">House Rent Allowance</td>
+                            <td align="right">3,50,000</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left:2em">Other Allowance</td>
+                            <td align="right">5,72,030</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left:2em">Leave Encashment</td>
+                            <td align="right">46,969</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left:2em">Gratuity</td>
+                            <td align="right">1,18,200</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    <tr style="font-weight:normal">
+                        <td>Value of perquisites u/s 17(2)</td>
+                        <td></td>
+                        <td align="right">19,806</td>
+                        <td></td>
+                    </tr>
+                <tr style="display:none">
+                    <td>Gross Salary</td>
+                    <td></td>
+                    <td align="right">18,07,005</td>
+                    <td></td>
+                </tr>
+                    <tr style="font-weight:normal">
+                        <td>Less: Allowances exempt u/s 10</td>
+                        <td></td>
+                        <td align="right">3,14,664</td>
+                        <td></td>
+                    </tr>
+                        <tr>
+                                                                                    <td style="padding-left:2em">House Rent</td>
+                            <td align="right">1,49,495</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                                                                                    <td style="padding-left:2em">Death- Retirement gratuity  Sec 10(10)</td>
+                            <td align="right">1,18,200</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                                                                                    <td style="padding-left:2em">Earned leave encashment on retirement  Sec 10(10 A A)</td>
+                            <td align="right">46,969</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    <tr>
+                        <td><b>Net Salary</b></td>
+                        <td></td>
+                        <td></td>
+                        <td align="right"><b>14,92,341</b></td>
+                    </tr>
+                <tr style="height: 25px"></tr>
+            <tr></tr>
+<tr class="">
+                    <td colspan="2"><b>Employer 2: GE INDIA INDUSTRIAL PRIVATE LIMITED</b></td>
+                    <td colspan="2"></td>
+                </tr>
+                    <tr style="font-weight:normal">
+                        <td>Salary u/s 17(1)</td>
+                        <td></td>
+                        <td align="right">2,78,376</td>
+                        <td></td>
+                    </tr>
+                        <tr>
+                            <td style="padding-left:2em">Basic Salary</td>
+                            <td align="right">2,78,376</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                <tr style="display:none">
+                    <td>Gross Salary</td>
+                    <td></td>
+                    <td align="right">2,78,376</td>
+                    <td></td>
+                </tr>
+                    <tr>
+                        <td><b>Net Salary</b></td>
+                        <td></td>
+                        <td></td>
+                        <td align="right"><b>2,78,376</b></td>
+                    </tr>
+                <tr style="height: 25px"></tr>
+            <tr></tr>
+            <tr>
+                <td><b>Total Salary</b></td>
+                <td></td>
+                <td></td>
+                <td align="right"><b>17,70,717</b></td>
+            </tr>
+            <tr style="font-weight:normal">
+                <td>Less: Deduction u/s 16</td>
+                <td></td>
+                <td></td>
+                <td align="right"><b>50,200</b></td>
+            </tr>
+            <tr>
+                <td style="padding-left:2em">Standard Deduction u/s 16(ia)</td>
+                <td></td>
+                <td align="right">50,000</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="padding-left:2em">Professional Tax u/s 16(iii)</td>
+                <td></td>
+                <td align="right">200</td>
+                <td></td>
+            </tr>
+        <tr></tr>
+
+                <tr>
+                    <td><b>Total Taxable Salary</b></td>
+                    <td></td>
+                    <td></td>
+                    <td align="right"><b>17,20,517</b></td>
+                </tr>
+    </table>
+
+                <table class="table table-condensed m60"><tr class="ct-report-heading"><th colspan="4"><h4>Business and Profession</h4></th></tr><tr class="ct-report-total"><td>Particulars</td><td></td><td>Amount</td><td align="right"></td></tr><tr class="ct-report-normal"><td>Presumptive Income u/s 44ADA</td><td></td><td align="right">2,71,003</td><td></td></tr><tr class="ct-report-total"><td>Net Income under the head &quot;Business and Profession&quot;</td><td></td><td></td><td align="right">2,71,003</td></tr></table>
+
+<table class="table table-condensed m60"><tr class="ct-report-heading"><th colspan="4"><h4></h4></th></tr></table>
+<style>
+    .rupeeDisplay {
+        text-align: right;
+    }
+</style>
+
+
+    <p class="ct-report-subheading">Section 44ADA</p>
+    <table class="table table-condensed striped m60" border="1" cellspacing="0">
+        <tr>
+            <th colspan="2" style="text-align: left">Business nature</th>
+            <th style="text-align: center">Business code</th>
+            <th style="text-align: center">Trade Name</th>
+        </tr>
+            <tr>
+                <td colspan="2" style="text-align: left">Other software consultancy </td>
+                <td style="text-align: center"> 14002</td>
+                <td style="text-align: center">himanshu rana</td>
+            </tr>
+    </table>
+    <table class="table table-condensed m60">
+        <tr>
+            <td colspan="3">Gross Receipt</td>
+            <td style="text-align: right">5,42,006 &nbsp;</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold" colspan="3">Income u/s 44ADA</td>
+            <td style="text-align: right; font-weight: bold">2,71,003 &nbsp;</td>
+        </tr>
+    </table>
+<table class="table table-condensed m60"><tr class="ct-report-heading"><th colspan="4"><h4>Other Income</h4></th></tr><tr class="ct-report-normal"><td>Interest Income from Saving Account</td><td></td><td align="right">21,656</td><td></td></tr><tr class="ct-report-nested"><td>&nbsp; &nbsp; &nbsp; &nbsp;  STATE BANK OF INDIA</td><td align="right">20,304</td><td></td><td></td></tr><tr class="ct-report-nested"><td>&nbsp; &nbsp; &nbsp; &nbsp;  ICICI BANK LIMITED</td><td align="right">1,352</td><td></td><td></td></tr><tr class="ct-report-normal"><td>Interest Income from Deposits</td><td></td><td align="right">34,137</td><td></td></tr><tr class="ct-report-nested"><td>&nbsp; &nbsp; &nbsp; &nbsp;  STATE BANK OF INDIA</td><td align="right">34,135</td><td></td><td></td></tr><tr class="ct-report-nested"><td>&nbsp; &nbsp; &nbsp; &nbsp;  ICICI BANK LIMITED</td><td align="right">2</td><td></td><td></td></tr><tr class="ct-report-normal"><td>Dividend Income from Domestic Company</td><td></td><td align="right">229</td><td></td></tr><tr class="ct-report-nested"><td>&nbsp; &nbsp; &nbsp; &nbsp;  Q1(upto 15th June)</td><td align="right">0</td><td></td><td></td></tr><tr class="ct-report-nested"><td>&nbsp; &nbsp; &nbsp; &nbsp;  Q2(upto 15th September)</td><td align="right">0</td><td></td><td></td></tr><tr class="ct-report-nested"><td>&nbsp; &nbsp; &nbsp; &nbsp;  Q3(upto 15th December)</td><td align="right">229</td><td></td><td></td></tr><tr class="ct-report-nested"><td>&nbsp; &nbsp; &nbsp; &nbsp;  Q4(upto 15th March)</td><td align="right">0</td><td></td><td></td></tr><tr class="ct-report-nested"><td>&nbsp; &nbsp; &nbsp; &nbsp;  16th March to 31st March</td><td align="right">0</td><td></td><td></td></tr><tr class="ct-report-total"><td>Total</td><td></td><td align="right">56,022</td></tr></table>
+
+
+
+    <h3 style="text-align: center">Deductions</h3>
+    <table class="table table-condensed striped m40" border="1" cellspacing="0">
+        <tr>
+            <th>Section</th>
+            <th>Gross Amount</th>
+            <th>Deductible Amount</th>
+        </tr>
+        
+
+                                    <tr>
+                <td class="ct-report-total">80C (Total)</td>
+                <td style="text-align:right;" class=ct-report-total>1,50,000</td>
+                <td style="text-align:right" class="ct-report-total">1,50,000</td>
+            </tr>
+
+
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+        
+
+                        
+
+    
+        
+
+                        
+
+    
+        
+
+                        
+
+    
+        
+
+                        
+
+    
+        
+
+                        
+
+    
+        
+    
+        
+
+                        
+
+    
+        
+
+                        
+
+    
+        
+
+                        
+
+    
+        
+
+                        
+
+    
+        
+
+                                    <tr>
+                <td class="ct-report-total">80TTA</td>
+                <td style="text-align:right;" class=></td>
+                <td style="text-align:right" class="ct-report-total">10,000</td>
+            </tr>
+
+
+            
+
+                                    <tr>
+                <td class="ct-report-total">Total</td>
+                <td style="text-align:right;" class=></td>
+                <td style="text-align:right" class="ct-report-total">1,60,000</td>
+            </tr>
+
+
+    
+
+    </table>
+        <table class="table table-condensed m60" title="Loss Report Collection">
+            <tr><th colspan="4"><h4>Loss Report Collection</h4></th></tr>
+            <tr class="ct-report-header" style = "text-align:left" >
+                <th>Year of Loss</th>
+                <th>Category of Loss</th>
+                <th>SetOff Category</th>
+                <th align = right>Amount SetOff</th>
+            </tr>
+                <tr class="ct-report-normal">
+                    <td>2023-2024 </td>
+                <td>ShortTermCapitalGain</td>
+                
+                    <td>ShortTermCapitalGain - STCG - Slab Rate</td>  
+                
+
+                <td align="right">Rs. 6</td>
+                </tr>
+                <tr class="ct-report-normal">
+                    <td>2023-2024 </td>
+                <td>ShortTermCapitalGain</td>
+                
+                    <td>LongTermCapitalGain - LTCG - Sec 112A - 10%</td>  
+                
+
+                <td align="right">Rs. 472</td>
+                </tr>
+        </table>       
+<table class="table table-condensed m60"><tr class="ct-report-heading"><th colspan="4"><h4>Income Tax</h4></th></tr><tr class="ct-report-normal"><td>Total Income</td><td></td><td align="right">18,95,170</td><td></td></tr><tr class="ct-report-normal"><td>Basic Exemption</td><td></td><td align="right">2,50,000</td><td></td></tr><tr class="ct-report-normal"><td>Income Tax</td><td></td><td align="right">3,78,763</td><td></td></tr><tr class="ct-report-normal"><td>Health and Education Cess</td><td></td><td align="right">15,151</td><td></td></tr><tr class="ct-report-normal"><td>Total Tax</td><td></td><td align="right">3,93,914</td><td></td></tr><tr class="ct-report-normal"><td>Relief u/s 90</td><td></td><td align="right">56,328</td><td></td></tr><tr class="ct-report-normal"><td>Net Tax Liability</td><td></td><td align="right">3,37,586</td><td></td></tr><tr class="ct-report-normal"><td>Interest Due</td><td></td><td align="right">5,516</td><td></td></tr><tr class="ct-report-nested"><td>&nbsp; &nbsp; &nbsp; &nbsp;  234B(4 month(s))</td><td align="right">3,952</td><td></td><td></td></tr><tr class="ct-report-nested"><td>&nbsp; &nbsp; &nbsp; &nbsp;  234C</td><td align="right">1,564</td><td></td><td></td></tr><tr class="ct-report-normal"><td>Tax Paid</td><td></td><td align="right">-2,38,702</td><td></td></tr><tr class="ct-report-nested"><td>&nbsp; &nbsp; &nbsp; &nbsp;  TDS</td><td align="right">2,38,702</td><td></td><td></td></tr><tr class="ct-report-normal"><td>Payable</td><td></td><td align="right">1,04,400</td><td></td></tr></table>
+
+<h3 style="justify-content:center;display:flex">Normal Tax Breakup</h3>
+<table border="1" cellspacing="0" style="text-align:center;">
+
+    <tr>
+        <th>Income Slab</th>
+        <th>Rate</th>
+        <th>Tax Amount</th>
+    </tr>
+        <tr>
+            <td>0 to 2.5 lakh</td>
+            <td>0%</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>2.5 lakh to 5 lakh</td>
+            <td>5%</td>
+            <td>12,500</td>
+        </tr>
+        <tr>
+            <td>5 lakh to 10 lakh</td>
+            <td>20%</td>
+            <td>1,00,000</td>
+        </tr>
+        <tr>
+            <td>Above 10 lakh</td>
+            <td>30%</td>
+            <td>2,66,263</td>
+        </tr>
+    <tr>
+        <td><b>Total</b></td>
+        <td></td>
+        <td><b>3,78,763</b></td>
+    </tr>
+</table>
+<br><br>
+<h3 style="text-align:center">Interest u/s 234C</h3>
+
+<table border="1" cellspacing="0">
+
+    <tr>
+        <th>
+            Installment period
+        </th>
+        <th>
+            Tax Due
+        </th>
+        <th>
+            Percentage of Tax to be Deposited
+        </th>
+        <th>
+            Tax to be Deposited
+        </th>
+        <th>
+            Tax Paid
+        </th>
+        <th>
+            Remaining Tax due
+        </th>
+        <th>
+            Interest Rate
+        </th>
+        <th>
+            Interest u/s 234C
+        </th>
+    </tr>
+
+    <tr>
+        <td align="center">
+            1st Quarter (Upto 15th Jun)
+        </td>
+        <td align="center">
+            14,260
+        </td>
+        <td align="center">
+            15%
+        </td>
+        <td align="center">
+            2,139
+        </td>
+        <td align="center">
+            0
+        </td>
+        <td align="center">
+            2,139
+        </td>
+        <td align="center">
+            3%
+        </td>
+        <td align="center">
+            63
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center">
+            2st Quarter (Upto 15th Sep)
+        </td>
+        <td align="center">
+            14,260
+        </td>
+        <td align="center">
+            45%
+        </td>
+        <td align="center">
+            6,417
+        </td>
+        <td align="center">
+            0
+        </td>
+        <td align="center">
+            6,417
+        </td>
+        <td align="center">
+            3%
+        </td>
+        <td align="center">
+            192
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center">
+            3st Quarter (Upto 15th Dec)
+        </td>
+        <td align="center">
+            14,332
+        </td>
+        <td align="center">
+            75%
+        </td>
+        <td align="center">
+            10,749
+        </td>
+        <td align="center">
+            0
+        </td>
+        <td align="center">
+            10,749
+        </td>
+        <td align="center">
+            3%
+        </td>
+        <td align="center">
+            321
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center">
+            4st Quarter (Upto 15th Mar)
+        </td>
+        <td align="center">
+            98,884
+        </td>
+        <td align="center">
+            100%
+        </td>
+        <td align="center">
+            98,884
+        </td>
+        <td align="center">
+            0
+        </td>
+        <td align="center">
+            98,884
+        </td>
+        <td align="center">
+            1%
+        </td>
+        <td align="center">
+            988
+        </td>
+    </tr>
+
+    <tr><td colspan="7"></td> <td align="center"><b>1,564</b></td></tr>
+
+</table>
+    <h3 style="text-align:center">Taxes Paid</h3>
+<h5 style="text-align:center">(TDS on Salary, TDS on Non Salary Income, TCS)</h5>
+
+
+
+
+
+        <h4 style="text-align:center">TDS on Salary</h4>
+        <table class="table table-condensed striped m40" border="1" cellspacing="0">
+            <tr>
+                <th>Tan</th>
+                <th>Name</th>
+                <th>Income Chargeable</th>
+                <th>Tax Deducted</th>
+            </tr>
+                <tr>
+                    <td>DELH01586E</td>
+                    <td>HCL TECHNOLOGIES LTD.</td>
+                    <td style="text-align:right">14,42,341</td>
+                    <td style="text-align:right">2,08,211</td>
+                </tr>
+                <tr>
+                    <td>BLRG00869B</td>
+                    <td>GE INDIA INDUSTRIAL PRIVATE LIMITED</td>
+                    <td style="text-align:right">2,28,176</td>
+                    <td style="text-align:right">0</td>
+                </tr>
+                            <tr class="ct-report-total">
+                    <td colspan="3">Total</td>
+                    <td style="text-align:right">2,08,211</td>
+                </tr>
+        </table>
+
+        <h4 style="text-align:center">TDS on Non Salary Income</h4>
+        <table class="table table-condensed striped m40" border="1" cellspacing="0">
+            <tr>
+                <th>Name</th>
+                <th>Tan</th>
+                    <th>Type of Income</th>
+                <th>Deducted Year</th>
+                    <th>Brought Forward TDS</th>
+                    <th>TDS Amount Claimed</th>
+                                        <th>Income For Which TDS Paid</th>
+                <th>Balance</th>
+            </tr>
+                <tr>
+                    <td>STATE BANK OF INDIA</td>
+                    <td>MUMS86173D</td>
+                        <td>Other Sources</td>                      <td>2022</td>
+                    <td style="text-align:right"></td>
+                    <td style="text-align:right">1,492</td>
+                        <td style="text-align:right">14,916</td>
+                    <td style="text-align:right">0</td>
+                    </tr>
+                <tr>
+                    <td>UDEMY INC</td>
+                    <td>RTKU02302G</td>
+                        <td>Other Sources</td>                      <td>2022</td>
+                    <td style="text-align:right"></td>
+                    <td style="text-align:right">28,999</td>
+                        <td style="text-align:right">28,99,912</td>
+                    <td style="text-align:right">0</td>
+                    </tr>
+                            <tr class="ct-report-total">
+                    <td colspan="5">Total</td>
+                    <td style="text-align:right">30,491</td>
+                    <td></td>
+                </tr>
+        </table>
+
+
+
+
+        <h4 style="text-align:center">TCS</h4>
+        <table class="table table-condensed striped m40" border="1" cellspacing="0">
+            <tr>
+                <th>Name</th>
+                <th>Tan</th>
+                <th>Deducted Year</th>
+                    <th>Brought Forward TCS</th>
+                    <th>TCS Amount Claimed</th>   
+                                        <th>Expenditure For Which TCS Paid</th>
+                <th>Balance</th>
+            </tr>
+                <tr>
+                    <td>ICICI BANK LIMITED</td>
+                    <td>MUMI15731C</td>
+                    <td>2022</td>
+                    <td style="text-align:right"></td>
+                    <td style="text-align:right">0</td>
+                        <td style="text-align:right">1,555</td>
+                    <td style="text-align:right">0</td>
+                    </tr>
+                    </table>
+
+
+
+
+
+        <div align="center">
+            <h2>Annexures</h2>
+        </div>
+<style>
+    .propertyTable {
+        vertical-align: bottom;
+        border-bottom: 2px solid #ddd;
+        background-color: #d9d9ee;
+        color: #998cc7;
+        font-weight: bold;
+    }
+</style>
+
+            <div>
+                <h2>Short Term Capital Gain (Amount in 'Rs')</h2>
+                    <h3>Sale of Shares</h3>
+
+                <h4>Listed (Amount in &#x27;Rs&#x27;)</h4>
+                <table class="table table-condensed striped m40" border="1" cellspacing="0">
+                    <thead style=" vertical-align: bottom;border-bottom: 2px solid #ddd;background-color: #d9d9ee;color: #998cc7; font-weight: bold;">
+                    <tr>
+                        <th>Name of Company</th>
+                        <th>Date of Sale</th>
+                        <th>Sales Price</th>
+                        <th>Transfer Expense</th>
+                        <th>Net Sales Price</th>
+                        <th>Purchase Date</th>
+                        <th>Purchase Cost</th>
+                        <th>STT Paid</th>
+                        <th>Rate of Tax</th>
+                        <th>Capital Gain/(Loss)</th>
+                    </tr>
+                    </thead>
+                        <tr>
+                            <td>ZEN TECHNOLOGIES LIMITED # NEW EQ SH WITH FV RS.1/- AFTER SUB-DIVISION(INE251B01027)</td>
+                            <td style="text-align: center">19/08/22</td>
+                            <td style="text-align: right">924</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">924</td>
+                            <td style="text-align: center">01/04/22</td>
+                            <td style="text-align: right">1,038</td>
+                            <td style="text-align: right">Yes</td>
+                            <td style="text-align: right">15%</td>
+                            <td style="text-align: right">-114</td>
+                        </tr>
+                    <tr class="ct-report-total">
+                        <td>Total</td>
+                        <td></td>
+                        <td style="text-align: right">924</td>
+                        <td style="text-align: right">0</td>
+                        <td style="text-align: right">924</td>
+                        <td></td>
+                        <td style="text-align: right">1,038</td>
+                        <td></td>
+                        <td></td>
+                        <td style="text-align: right">-114</td>
+                    </tr>
+                </table>
+                         
+
+                    <h3>Sale of Mutual Funds</h3>
+
+                <h4>Equity (Amount in &#x27;Rs&#x27;)</h4>
+                <table class="table table-condensed striped m40" border="1" cellspacing="0">
+                    <thead style=" vertical-align: bottom;border-bottom: 2px solid #ddd;background-color: #d9d9ee;color: #998cc7; font-weight: bold;">
+                    <tr>
+                        <th>Name of Company</th>
+                        <th>Date of Sale</th>
+                        <th>Sales Price</th>
+                        <th>Transfer Expense</th>
+                        <th>Net Sales Price</th>
+                        <th>Purchase Date</th>
+                        <th>Purchase Cost</th>
+                        <th>STT Paid</th>
+                        <th>Rate of Tax</th>
+                        <th>Capital Gain/(Loss)</th>
+                    </tr>
+                    </thead>
+                        <tr>
+                            <td>NIPPON LIFE INDIA AM LTD#NIPPON INDIA MF-NIPPON INDIA ETF NIFTY NEXT 50 JUNIOR BEES(INF732E01045)</td>
+                            <td style="text-align: center">28/09/22</td>
+                            <td style="text-align: right">446</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">446</td>
+                            <td style="text-align: center">01/04/22</td>
+                            <td style="text-align: right">464</td>
+                            <td style="text-align: right">Yes</td>
+                            <td style="text-align: right">15%</td>
+                            <td style="text-align: right">-18</td>
+                        </tr>
+                        <tr>
+                            <td>MOTILAL OSWAL AMC LTD#MOTILAL OSWAL MF-MOTILAL OSWAL NASDAQ 100 ETF(INF247L01AP3)</td>
+                            <td style="text-align: center">28/09/22</td>
+                            <td style="text-align: right">726</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">726</td>
+                            <td style="text-align: center">01/04/22</td>
+                            <td style="text-align: right">952</td>
+                            <td style="text-align: right">Yes</td>
+                            <td style="text-align: right">15%</td>
+                            <td style="text-align: right">-226</td>
+                        </tr>
+                        <tr>
+                            <td>NIPPON LIFE INDIA AM LTD#NIPPON INDIA MF-NIPPON INDIA ETF NIFTY 50 BEES(INF204KB14I2)</td>
+                            <td style="text-align: center">28/09/22</td>
+                            <td style="text-align: right">553</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">553</td>
+                            <td style="text-align: center">01/04/22</td>
+                            <td style="text-align: right">580</td>
+                            <td style="text-align: right">Yes</td>
+                            <td style="text-align: right">15%</td>
+                            <td style="text-align: right">-27</td>
+                        </tr>
+                        <tr>
+                            <td>ICICI Prudential Nifty 50 Index Fund - Direct Plan Growth(INF109K012M7)</td>
+                            <td style="text-align: center">16/03/23</td>
+                            <td style="text-align: right">773</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">773</td>
+                            <td style="text-align: center">01/04/22</td>
+                            <td style="text-align: right">829</td>
+                            <td style="text-align: right">Yes</td>
+                            <td style="text-align: right">15%</td>
+                            <td style="text-align: right">-56</td>
+                        </tr>
+                        <tr>
+                            <td>ICICI Prudential Nifty Midcap 150 Index Fund - Direct Plan - Growth(INF109KC1W58)</td>
+                            <td style="text-align: center">17/02/23</td>
+                            <td style="text-align: right">105</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">105</td>
+                            <td style="text-align: center">01/04/22</td>
+                            <td style="text-align: right">110</td>
+                            <td style="text-align: right">Yes</td>
+                            <td style="text-align: right">15%</td>
+                            <td style="text-align: right">-5</td>
+                        </tr>
+                        <tr>
+                            <td>ICICI Prudential Nifty Midcap 150 Index Fund - Direct Plan - Growth(INF109KC1W58)</td>
+                            <td style="text-align: center">16/01/23</td>
+                            <td style="text-align: right">452</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">452</td>
+                            <td style="text-align: center">01/04/22</td>
+                            <td style="text-align: right">464</td>
+                            <td style="text-align: right">Yes</td>
+                            <td style="text-align: right">15%</td>
+                            <td style="text-align: right">-12</td>
+                        </tr>
+                        <tr>
+                            <td>ICICI Prudential Nifty Next 50 Index Fund - Direct Plan - Growth(INF109K01Y80)</td>
+                            <td style="text-align: center">16/01/23</td>
+                            <td style="text-align: right">288</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">288</td>
+                            <td style="text-align: center">01/04/22</td>
+                            <td style="text-align: right">297</td>
+                            <td style="text-align: right">Yes</td>
+                            <td style="text-align: right">15%</td>
+                            <td style="text-align: right">-9</td>
+                        </tr>
+                        <tr>
+                            <td>ICICI Prudential Nifty Smallcap 250 Index Fund - Direct Plan - Growth(INF109KC1V18)</td>
+                            <td style="text-align: center">16/01/23</td>
+                            <td style="text-align: right">212</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">212</td>
+                            <td style="text-align: center">01/04/22</td>
+                            <td style="text-align: right">219</td>
+                            <td style="text-align: right">Yes</td>
+                            <td style="text-align: right">15%</td>
+                            <td style="text-align: right">-7</td>
+                        </tr>
+                        <tr>
+                            <td>ICICI Prudential Nifty 50 Index Fund - Direct Plan Growth(INF109K012M7)</td>
+                            <td style="text-align: center">16/01/23</td>
+                            <td style="text-align: right">141</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">141</td>
+                            <td style="text-align: center">01/04/22</td>
+                            <td style="text-align: right">145</td>
+                            <td style="text-align: right">Yes</td>
+                            <td style="text-align: right">15%</td>
+                            <td style="text-align: right">-4</td>
+                        </tr>
+                    <tr class="ct-report-total">
+                        <td>Total</td>
+                        <td></td>
+                        <td style="text-align: right">3,696</td>
+                        <td style="text-align: right">0</td>
+                        <td style="text-align: right">3,696</td>
+                        <td></td>
+                        <td style="text-align: right">4,060</td>
+                        <td></td>
+                        <td></td>
+                        <td style="text-align: right">-364</td>
+                    </tr>
+                </table>
+         
+                <h4>Other Than Equity (Amount in &#x27;Rs&#x27;)</h4>
+                <table class="table table-condensed striped m40" border="1" cellspacing="0">
+                    <thead style=" vertical-align: bottom;border-bottom: 2px solid #ddd;background-color: #d9d9ee;color: #998cc7; font-weight: bold;">
+                    <tr>
+                        <th>Name of Company</th>
+                        <th>Date of Sale</th>
+                        <th>Sales Price</th>
+                        <th>Transfer Expense</th>
+                        <th>Net Sales Price</th>
+                        <th>Purchase Date</th>
+                        <th>Purchase Cost</th>
+                        <th>STT Paid</th>
+                        <th>Rate of Tax</th>
+                        <th>Capital Gain/(Loss)</th>
+                    </tr>
+                    </thead>
+                        <tr>
+                            <td>ICICI Prudential Regular Gold Savings Fund (FOF) - Direct Plan - Growth(INF109K01U92)</td>
+                            <td style="text-align: center">17/02/23</td>
+                            <td style="text-align: right">881</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">881</td>
+                            <td style="text-align: center">01/04/22</td>
+                            <td style="text-align: right">878</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">3</td>
+                        </tr>
+                        <tr>
+                            <td>ICICI Prudential Corporate Bond Fund - Direct Plan - Growth(INF109K016B1)</td>
+                            <td style="text-align: center">16/01/23</td>
+                            <td style="text-align: right">597</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">597</td>
+                            <td style="text-align: center">01/04/22</td>
+                            <td style="text-align: right">594</td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right"></td>
+                            <td style="text-align: right">3</td>
+                        </tr>
+                    <tr class="ct-report-total">
+                        <td>Total</td>
+                        <td></td>
+                        <td style="text-align: right">1,478</td>
+                        <td style="text-align: right">0</td>
+                        <td style="text-align: right">1,478</td>
+                        <td></td>
+                        <td style="text-align: right">1,472</td>
+                        <td></td>
+                        <td></td>
+                        <td style="text-align: right">6</td>
+                    </tr>
+                </table>
+         
+
+                <br />
+                <div>
+                    <h3>Pass-Through Income</h3>
+                    <div>Short Term Capital Gain Chargeable u/s 111A at (15%): Rs Rs. 0</div>
+                    <div>Short Term Capital Gain Chargeable at Slab Rate: Rs Rs. 0</div>
+                </div>
+                <br />
+                                    <div>Total Short Term Capital Gain chargeable at Slab Rate: Rs. 6 </div>
+                                    <div>Total Short Term Capital Gain chargeable at Special Rate (15%): Rs. -478 </div>
+                
+            </div>
+
+
+
+
+
+    <div>
+        <h2>Long Term Capital Gain (Amount in 'Rs')</h2>
+                
+            <h3>Sale of Mutual Funds</h3>
+                <h4>Equity - STT Paid</h4>
+                <table class="table table-condensed striped m40" border="1" cellspacing="0">
+                    <tr>
+                        <th>ISIN - Name of Company</th>
+                        <th>Date of Sale</th>
+                        <th>Number of Shares</th>
+                        <th>Sales Price</th>
+                        <th>Transfer Expense</th>
+                        <th>Net Sales Price</th>
+                        <th>Purchase Date</th>
+                        <th>Purchase Cost</th>
+                            <th>FMV as on 31st Jan 2018</th>
+                        <th>STT Paid</th>
+                        <th>Capital Gain</th>
+                    </tr>
+                    <tr>
+                            <td>Aditya Birla Sun Life Tax Relief&#x27;96 Fund- (ELSS U/S 80C of IT ACT) - Growth-Regular Plan(INF209K01108)</td>
+                        <td>19/12/22</td>
+                        <td>722</td>
+                        <td>30,100</td>
+                        <td></td>
+                        <td>30,100</td>
+                        <td>01/01/21</td>
+                        <td>22,000</td>
+                            <td></td>
+                        <td>Yes</td>
+                        <td>8,100</td>
+                    </tr>
+                    <tr class="ct-report-total">
+                        <td>Total</td>
+                        <td></td>
+                        <td></td>
+                        <td>30,100</td>
+                        <td>0</td>
+                        <td>30,100</td>
+                        <td></td>
+                        <td>22,000</td>
+                            <td>0</td>
+                        <td></td>
+                        <td>8,100</td>
+                    </tr>
+                </table>
+            <br />
+
+        
+        <div>
+            <h3>Pass-Through Income</h3>
+            <div>Long Term Capital Gain Chargeable u/s 112A at (10%): Rs Rs. 0</div>
+            <div>Long Term Capital Gain Chargeable u/s 112 at (10%): Rs Rs. 0</div>
+            <div>Long Term Capital Gain Chargeable u/s 112 at (20%): Rs Rs. 0</div>
+        </div>
+        <br/>
+        
+
+            <div>Total Long Term Capital Gain Other Than Exempt: 8,100 </div>
+                    <div>Total Long Term Capital Gain Exempt: 0 </div>
+        
+        <p><div><b>Note :</b> The Long Term Capital Gain from the sale of equity shares and equity funds is included in the Total Income. However, up to Rs. 1 lakhs is excluded at the time of calculating the taxes there on.</div></p>
+
+
+        <br />
+    </div>
+
+    <h3 style="text-align:center">Bank Account Details</h3>
+    <table class="table table-condensed striped m40" border="1" cellspacing="0">
+        <tr>
+            <th>SI No.</th>
+            <th>IFSC Code</th>
+            <th>Name of the Bank</th>
+            <th>Account No.</th>
+        </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>ICIC0000177</td>
+                    <td>ICICI</td>
+                    <td>017701572669</td>
+                </tr>
+    </table>
+
+
+    <h3 style="text-align: center">Financial Particulars</h3>
+        <h3 style="text-align: left">In case of presumptive income</h3>
+        <table class="table table-condensed striped m60" border="1" cellspacing="0">
+            <tr>
+                <th style="text-align: center" colspan="2">Financial particulars as on 31/03/2023</th>
+            </tr>
+            <tr>
+                <td style="text-align: left">&nbsp; Sundry Debtors</td>
+                <td style="text-align: right"> 0 &nbsp;</td>
+            </tr>
+            <tr>
+                <td style="text-align: left">&nbsp; Sundry Creditors</td>
+                <td style="text-align: right"> 0 &nbsp;</td>
+            </tr>
+            <tr>
+                <td style="text-align: left">&nbsp; Stock-in-trade</td>
+                <td style="text-align: right"> 0 &nbsp;</td>
+            </tr>
+            <tr>
+                <td style="text-align: left">&nbsp; Cash Balance</td>
+                <td style="text-align: right"> 10,000 &nbsp;</td>
+            </tr>
+        </table>
+
+
+
+
+
+<style>
+    tr.noBorder td {
+        border: 0;
+    }
+</style>
+
+<br><br>
+<h3 style="text-align:center">FSI - Details of Income from outside India and tax relief</h3>
+
+<table border="1" cellspacing="0">
+    <tr>
+        <th>
+            Head of Income
+        </th>
+        <th>
+            Income from outside India
+        </th>
+        <th>
+            Tax Paid Outside India
+        </th>
+        <th>
+            Tax Payable on such income under normal provisions in India
+        </th>
+            <th>
+                Tax Releif available in India
+            </th>
+        <th>
+            Relevant article of DTAA if relief claimed u/s 90 or 90A
+        </th>
+    </tr>
+
+        <tr><td colspan="6"></td></tr>
+        <tr class="noBorder">
+            <td colspan="4">Country code: 184, Country Name: UNITED_STATES_OF_AMERICA</td>
+            <td align="right" colspan="2"> TIN: </td>  
+        </tr>
+            <tr>
+                <td align="center">
+                    Business
+                </td>
+                <td align="center">
+                    2,71,003
+                </td>
+                <td align="center">
+                    81,180
+                </td>
+                <td align="center">
+                    56,328
+                </td>
+                <td align="center">
+                    56,328
+                </td>
+                <td align="center">
+                    12
+                </td>
+            </tr>
+        <tr>
+            <td align="center">
+                <b>Total</b>
+            </td>
+            <td align="center">
+                2,71,003
+            </td>
+            <td align="center">
+                81,180
+            </td>
+            <td align="center">
+                56,328
+            </td>
+            <td align="center">
+                56,328
+            </td>
+            <td align="center">
+                -
+            </td>
+        </tr>
+
+
+</table>
+
+
+            </div>
+        </div>
+    </div>
+
+<style>
+    .casignature {
+        width: 200px;
+        display: inline-block;
+        text-align: right;
+    }
+</style>
+
+<div class="footer m60">
+    <br /><br /><br />
+    <table>
+        <tr>
+            <td>
+                <div class="signature">
+                    <p class="extra-padding">Signature </p>
+                    For Himanshu Rana
+                </div>
+            </td>
+            <td>
+                <div class="casignature">
+                    <p class="extra-padding">Prepared by Gaurav </p>
+                    CA Gaurav
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <p class="amount small">
+        Generated by TaxCloud India (<a href="https://taxcloudindia.com">www.taxcloudindia.com</a>)
+    </p>
+</div>
+
+
+</div>
+</body>
+</html>
